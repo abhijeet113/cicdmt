@@ -1,0 +1,15 @@
+*****************************Top of data
+******************************************
+//REXEXCOO JOB (5990), 'BATCH IVP', CLASS=A, MSGCLASS=X, NOTIFY=&SYSUID,
+//         TIME-NOLIMIT
+//***************************************************************
+//***************************************************
+//REXJ EXEC PGM=IKJEFT01, DYNAMNBR=45
+//SYSPROC DD DISP=SHR, DSN=HLQ1.HLQ2.JOBS
+//SYSTSPRT DD SYSOUT=*
+//SYSTSIN DD *
+%SMPREX1
+//*
+//
+************************************ bottom of data
+************************************************************
